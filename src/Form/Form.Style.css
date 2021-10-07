@@ -1,0 +1,88 @@
+.form-add-user {
+  display: flex;
+  flex-direction: column;
+  border-right: outset;
+  margin-left: 25%;
+}
+.form-add-user input {
+  width: 250px;
+  height: 25px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid blueviolet;
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+}
+.form-add-user input::placeholder {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: large;
+  color: gray;
+}
+.form-add-user button {
+  width: 150px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 60px;
+  border-radius: 10px;
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  background-color: blueviolet;
+  border: none;
+}
+.tittle {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+.form-add {
+  width: 50%;
+  margin-top: 3%;
+  font-family: "Courier New", Courier, monospace;
+}
+.form-add h2 {
+  text-align: center;
+}
+.app-form {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.container-table {
+  width: 85%;
+  height: 80%;
+  margin-left: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 35px;
+}
+.column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border-bottom: 1px solid blueviolet;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.view-user {
+  width: 50%;
+  margin-top: 3%;
+  font-family: "Courier New", Courier, monospace;
+}
+.view-user h2 {
+  text-align: center;
+}
+.butt {
+  font-family: "Courier New", Courier, monospace;
+  margin: 3px;
+  background-color: gray;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  height: 25px;
+}
