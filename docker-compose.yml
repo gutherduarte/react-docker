@@ -1,0 +1,20 @@
+version: "3.3"
+services:
+  server1:
+    build: ./
+    ports:
+      - "3000:80"
+  server2:
+    build: ./
+    ports:
+      - "3001:80"
+  server3:
+    build: ./
+    ports:
+      - "3002:80"
+  balancer:
+    image: "nginx:alpine"
+    porst:
+      - "2999:80"
+    volumes:
+      - ~/react-docker/conf-nginx/nginx.conf:/etc/nginx/conf.d/default.conf
