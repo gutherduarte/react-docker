@@ -14,7 +14,7 @@ services:
       - "3002:80"
   balancer:
     image: "nginx:alpine"
-    porst:
+    ports:
       - "2999:80"
     volumes:
       - ~/react-docker/conf-nginx/nginx.conf:/etc/nginx/conf.d/default.conf
